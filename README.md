@@ -21,7 +21,7 @@ The CI/CD pipeline is built using a Jenkins Declarative Pipeline. It automates:
 7. Docker Push  
 
 ### Jenkins Screenshot
-![Jenkins Pipeline](docs/screenshots/jenkins-pipeline.png)
+![Jenkins Pipeline](jenkins-pipeline.png)
 
 ## Docker Integration
 Docker is used to containerize the Spring Boot application.  
@@ -49,7 +49,7 @@ Prometheus is used to scrape Jenkins metrics, including:
 - CI job performance indicators
 
 ### Prometheus Screenshot
-![Prometheus Target](docs/screenshots/prometheus-targets.png)
+![Prometheus Targets](prometheus-targets.png)
 
 ## Grafana Visualization
 Grafana visualizes Prometheus metrics in real time. Dashboards show:
@@ -61,7 +61,7 @@ Grafana visualizes Prometheus metrics in real time. Dashboards show:
 This helps diagnose pipeline issues and monitor CI performance.
 
 ### Grafana Screenshot
-![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
+![Grafana Dashboard](grafana-dashboard.png)
 
 ## Architecture Overview
 The DevOps architecture is summarized as follows:
